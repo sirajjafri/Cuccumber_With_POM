@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Free CRM login test",
+        "description": "",
+        "id": "free-crm-login-feature;validate-free-crm-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10741507744,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the browser",
+            "match": {
+              "location": "Login_StepDefinition.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5094687878,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "Login_StepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6899173249,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username and password and click Login button",
+            "match": {
+              "location": "Login_StepDefinition.user_enter_username_and_password_and_click_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18475070,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "home page is displayed",
+            "match": {
+              "location": "Login_StepDefinition.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9439561,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate home page title",
+            "match": {
+              "location": "Login_StepDefinition.validate_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144385521,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate logged in user name",
+            "match": {
+              "location": "Login_StepDefinition.validate_logged_in_user_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 701980968,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the browser",
+            "match": {
+              "location": "Login_StepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "F:/Automation/CuccumberProjectthroughPOM/src/main/java/Features/Freecrm.feature"
+  }
+]
